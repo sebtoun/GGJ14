@@ -1,0 +1,12 @@
+Temp
+obj
+Library
+build
+*.csproj
+.DS_Store
+*.swp
+*~
+*.unityproj
+*.sln
+*.userprefs
+*.suo
