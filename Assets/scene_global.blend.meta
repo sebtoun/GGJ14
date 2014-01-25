@@ -29,6 +29,21 @@ ModelImporter:
     100046: light_gyro_000
     100048: light_gyro_001
     100050: light_gyro_002
+    100052: couloir
+    100054: light_couloir_000
+    100056: light_couloir_000_001
+    100058: light_couloir_000_002
+    100060: light_couloir_000_003
+    100062: light_couloir_000_004
+    100064: light_couloir_000_005
+    100066: light_couloir_000_006
+    100068: light_couloir_000_007
+    100070: light_couloir_000_008
+    100072: light_couloir_000_009
+    100074: light_couloir_000_010
+    100076: light_couloir_000_011
+    100078: light_couloir_000_012
+    100080: light_couloir_000_013
     400000: //RootNode
     400002: alien
     400004: man
@@ -55,6 +70,21 @@ ModelImporter:
     400046: light_gyro_000
     400048: light_gyro_001
     400050: light_gyro_002
+    400052: couloir
+    400054: light_couloir_000
+    400056: light_couloir_000_001
+    400058: light_couloir_000_002
+    400060: light_couloir_000_003
+    400062: light_couloir_000_004
+    400064: light_couloir_000_005
+    400066: light_couloir_000_006
+    400068: light_couloir_000_007
+    400070: light_couloir_000_008
+    400072: light_couloir_000_009
+    400074: light_couloir_000_010
+    400076: light_couloir_000_011
+    400078: light_couloir_000_012
+    400080: light_couloir_000_013
     2300000: //RootNode
     2300002: alien
     2300004: man
@@ -76,6 +106,7 @@ ModelImporter:
     2300036: murs
     2300038: salleop
     2300040: table
+    2300042: couloir
     3300000: //RootNode
     3300002: alien
     3300004: man
@@ -97,6 +128,7 @@ ModelImporter:
     3300036: murs
     3300038: salleop
     3300040: table
+    3300042: couloir
     4300000: murs_int
     4300002: alien
     4300004: man
@@ -117,6 +149,7 @@ ModelImporter:
     4300034: salleop
     4300036: table
     4300038: murs
+    4300040: couloir
     6400000: //RootNode
     6400002: alien
     6400004: man
@@ -138,6 +171,7 @@ ModelImporter:
     6400036: murs
     6400038: salleop
     6400040: table
+    6400042: couloir
     7400000: Default Take
     9500000: //RootNode
   materials:

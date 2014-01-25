@@ -5,15 +5,10 @@ public class Cursor : MonoBehaviour {
     public Texture2D cursor;
     public int size;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    void die()
+    {
+        this.enabled = false;
+    }
 
     void OnGUI()
     {

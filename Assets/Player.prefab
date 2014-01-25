@@ -150,7 +150,7 @@ Animation:
   m_Animations:
   - {fileID: 7400000, guid: 5b242f0389170964b84a5fffc138e443, type: 2}
   m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
 --- !u!114 &11400000
@@ -196,9 +196,9 @@ MonoBehaviour:
   canControl: 1
   useFixedUpdate: 1
   movement:
-    maxForwardSpeed: 6
-    maxSidewaysSpeed: 6
-    maxBackwardsSpeed: 6
+    maxForwardSpeed: 3
+    maxSidewaysSpeed: 3
+    maxBackwardsSpeed: 3
     slopeSpeedMultiplier:
       serializedVersion: 2
       m_Curve:
@@ -306,6 +306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 7400000, guid: 5b242f0389170964b84a5fffc138e443, type: 2}
+  movementThreshold: 1
 --- !u!114 &11400016
 MonoBehaviour:
   m_ObjectHideFlags: 1

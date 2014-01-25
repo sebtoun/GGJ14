@@ -18,6 +18,7 @@ public class Shoot : MonoBehaviour {
             {
                 SendMessage("targetWasHit", hit);
             }
+            //SendMessage("die");
         }
 	}
 

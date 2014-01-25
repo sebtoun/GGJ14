@@ -24,4 +24,9 @@ public class Limp : MonoBehaviour {
             movementAmount -= movementThreshold;
         }
     }
+
+    void die()
+    {
+        this.enabled = false;
+    }
 }
