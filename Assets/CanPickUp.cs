@@ -6,11 +6,11 @@ using System.Collections.Generic;
 
 public class CanPickUp : MonoBehaviour 
 {
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.G))
-            BroadcastMessage("pickUp", new GameObject("gun"));
-    }
+    //void Update()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.G))
+    //        BroadcastMessage("pickUp", new GameObject("gun"));
+    //}
     void OnTriggerEnter(Collider c)
     {
         if (c.tag == "Item") 

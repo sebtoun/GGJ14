@@ -66,6 +66,11 @@ ModelImporter:
     100120: supportAlarme_000
     100122: supportAlarme_001
     100124: supportAlarme_002
+    100126: cadavre01
+    100128: cadavre01_001
+    100130: cadavre02
+    100132: cadavre03
+    100134: cadavre03_001
     400000: //RootNode
     400002: alien
     400004: man
@@ -129,6 +134,11 @@ ModelImporter:
     400120: supportAlarme_000
     400122: supportAlarme_001
     400124: supportAlarme_002
+    400126: cadavre01
+    400128: cadavre01_001
+    400130: cadavre02
+    400132: cadavre03
+    400134: cadavre03_001
     2300000: //RootNode
     2300002: alien
     2300004: man
@@ -161,6 +171,11 @@ ModelImporter:
     2300058: supportAlarme_000
     2300060: supportAlarme_001
     2300062: supportAlarme_002
+    2300064: cadavre01
+    2300066: cadavre01_001
+    2300068: cadavre02
+    2300070: cadavre03
+    2300072: cadavre03_001
     3300000: //RootNode
     3300002: alien
     3300004: man
@@ -193,6 +208,11 @@ ModelImporter:
     3300058: supportAlarme_000
     3300060: supportAlarme_001
     3300062: supportAlarme_002
+    3300064: cadavre01
+    3300066: cadavre01_001
+    3300068: cadavre02
+    3300070: cadavre03
+    3300072: cadavre03_001
     4300000: murs_int
     4300002: alien
     4300004: man
@@ -224,6 +244,11 @@ ModelImporter:
     4300056: supportAlarme_001
     4300058: supportAlarme_000
     4300060: alarme_000
+    4300062: cadavre03_001
+    4300064: cadavre01_001
+    4300066: cadavre01
+    4300068: cadavre02
+    4300070: cadavre03
     6400000: //RootNode
     6400002: alien
     6400004: man
@@ -256,6 +281,11 @@ ModelImporter:
     6400058: supportAlarme_000
     6400060: supportAlarme_001
     6400062: supportAlarme_002
+    6400064: cadavre01
+    6400066: cadavre01_001
+    6400068: cadavre02
+    6400070: cadavre03
+    6400072: cadavre03_001
     7400000: Default Take
     9500000: //RootNode
   materials:

@@ -6,6 +6,8 @@ public class InstanciateCorpseOnBlackOut : MonoBehaviour
     public GameObject corpse;
     void blackOut()
     {
-        Instantiate(corpse, this.transform.position, Quaternion.identity);
+        Vector3 pos = this.transform.position;
+        pos.y = 0;
+        Instantiate(corpse, pos, Quaternion.identity);
     }
 }

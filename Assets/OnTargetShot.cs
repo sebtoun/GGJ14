@@ -8,7 +8,6 @@ public class OnTargetShot : MonoBehaviour {
     {
         if (target.collider.tag == "Alien")
         {
-            Debug.Log("shot an alien");
             target.collider.gameObject.SendMessageUpwards("die", target, SendMessageOptions.DontRequireReceiver);
         }
         else if (target.collider.tag == "Man")

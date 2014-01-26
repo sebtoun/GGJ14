@@ -15,7 +15,18 @@ public class HintDisplay : MonoBehaviour
 
     Dictionary<string, string> hints = new Dictionary<string, string>
     {
-        { "interaction", "Press Space to use" }, 
+        { "interaction", "Press Space to open the door" }, 
+        { "gun", "I could use this weapon to help my friend" },
+        { "start", "They are gone, it's my chance to escape" }, 
+        { "end", "You don't see things as they are, we see them as we are" },
+    };
+
+    Dictionary<string, Color> hintsColor = new Dictionary<string, Color>
+    {
+        { "interaction", Color.white }, 
+        { "gun", Color.white },
+        { "start", Color.black },
+        { "end", Color.white },
     };
 
     void Start()
@@ -57,7 +68,8 @@ public class HintDisplay : MonoBehaviour
     {
         if (guiContent != null)
         {
-            //GUI.skin.font = font;
+            GUI.contentColor = hintsColor[currentHint];
+            GUI.skin.font = font;
             GUI.skin.label.fontSize = 30;
             var size = GUI.skin.label.CalcSize(guiContent);
             var c = GUI.color;

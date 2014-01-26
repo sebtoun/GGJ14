@@ -28,9 +28,10 @@ public class MouseLook : MonoBehaviour {
 	public float minimumY = -60F;
 	public float maximumY = 60F;
 
+    public float initialRotationY = -30;
 	float rotationY = 0F;
 
-	void Update ()
+   	void Update ()
 	{
 		if (axes == RotationAxes.MouseXAndY)
 		{
@@ -56,6 +57,7 @@ public class MouseLook : MonoBehaviour {
 	
 	void Start ()
 	{
+        rotationY = initialRotationY;
 		// Make the rigid body not change rotation
 		if (rigidbody)
 			rigidbody.freezeRotation = true;

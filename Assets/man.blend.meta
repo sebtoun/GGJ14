@@ -47,6 +47,8 @@ ModelImporter:
     100082: thigh_R
     100084: upper_arm_L
     100086: upper_arm_R
+    100088: gun
+    100090: gun_0
     400000: //RootNode
     400002: Cube
     400004: Cube_001
@@ -91,6 +93,8 @@ ModelImporter:
     400082: thigh_R
     400084: upper_arm_L
     400086: upper_arm_R
+    400088: gun
+    400090: gun_0
     2300000: //RootNode
     2300002: Cube
     2300004: Cube_001
@@ -134,6 +138,7 @@ ModelImporter:
     4300044: man_tete
     4300046: man_bassin
     4300048: man_tibia_droit
+    4300050: gun
     6400000: //RootNode
     6400002: Cube
     6400004: Cube_001
@@ -145,6 +150,8 @@ ModelImporter:
     6400016: Plane
     7400000: Default Take
     7400002: baston
+    7400004: gun
+    7400006: gun0
     9500000: //RootNode
     13700000: cou
     13700002: man_bassin
@@ -163,6 +170,7 @@ ModelImporter:
     13700028: man_tete
     13700030: man_tibia_droit
     13700032: man_tibia_gauche
+    13700034: gun
   materials:
     importMaterials: 1
     materialName: 0
@@ -179,10 +187,10 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: baston
-      takeName: baston
+      name: gun
+      takeName: gun
       firstFrame: 0
-      lastFrame: 15
+      lastFrame: 47
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -205,6 +213,8 @@ ModelImporter:
       - path: 
         weight: 1
       - path: cou
+        weight: 1
+      - path: gun
         weight: 1
       - path: man_bassin
         weight: 1
@@ -239,6 +249,110 @@ ModelImporter:
       - path: man_tibia_gauche
         weight: 1
       - path: metarig
+        weight: 1
+      - path: metarig/gun_0
+        weight: 1
+      - path: metarig/hips
+        weight: 1
+      - path: metarig/hips/chest
+        weight: 1
+      - path: metarig/hips/chest/head
+        weight: 1
+      - path: metarig/hips/chest/head/head_001
+        weight: 1
+      - path: metarig/hips/chest/upper_arm_L
+        weight: 1
+      - path: metarig/hips/chest/upper_arm_L/forearm_L
+        weight: 1
+      - path: metarig/hips/chest/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: metarig/hips/chest/upper_arm_L/forearm_L/hand_L/hand_L_001
+        weight: 1
+      - path: metarig/hips/chest/upper_arm_R
+        weight: 1
+      - path: metarig/hips/chest/upper_arm_R/forearm_R
+        weight: 1
+      - path: metarig/hips/chest/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: metarig/hips/thigh_L
+        weight: 1
+      - path: metarig/hips/thigh_L/shin_L
+        weight: 1
+      - path: metarig/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: metarig/hips/thigh_R
+        weight: 1
+      - path: metarig/hips/thigh_R/shin_R
+        weight: 1
+      - path: metarig/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: baston
+      takeName: baston
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cou
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: man_bassin
+        weight: 1
+      - path: man_bras_droite
+        weight: 1
+      - path: man_bras_droite01
+        weight: 1
+      - path: man_bras_gauche
+        weight: 1
+      - path: man_bras_gauche01
+        weight: 1
+      - path: man_chest
+        weight: 1
+      - path: man_cuisse_droite
+        weight: 1
+      - path: man_cuisse_gauche
+        weight: 1
+      - path: man_main_droite
+        weight: 1
+      - path: man_main_gauche
+        weight: 1
+      - path: man_pied_droit
+        weight: 1
+      - path: man_pied_gauche
+        weight: 1
+      - path: man_stick
+        weight: 1
+      - path: man_tete
+        weight: 1
+      - path: man_tibia_droit
+        weight: 1
+      - path: man_tibia_gauche
+        weight: 1
+      - path: metarig
+        weight: 1
+      - path: metarig/gun_0
         weight: 1
       - path: metarig/hips
         weight: 1

@@ -3,8 +3,9 @@ using System.Collections;
 
 public class LookDownward : MonoBehaviour 
 {
-	void Start () 
+	IEnumerator Start () 
     {
+        yield return new WaitForSeconds(0.2f);
         transform.LookAt(transform.parent);
 	}
 }
