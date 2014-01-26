@@ -1,0 +1,435 @@
+fileFormatVersion: 2
+guid: e336f2653470e7f40acfba38f319f590
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: alien_bassin
+    100004: alien_buste
+    100006: alien_colonne
+    100008: alien_cuisse_droite
+    100010: alien_cuisse_gauche
+    100012: alien_pied_droit
+    100014: alien_pied_droit_001
+    100016: alien_pied_droit_002
+    100018: alien_pied_gauche
+    100020: alien_pied_gauche_001
+    100022: alien_pied_gauche_002
+    100024: alien_tete
+    100026: alien_tibia_droit
+    100028: alien_tibia_gauche
+    100030: chest
+    100032: foot_L
+    100034: foot_R
+    100036: head
+    100038: heel_02_L
+    100040: heel_02_R
+    100042: heel_L
+    100044: heel_R
+    100046: hips
+    100048: metarig
+    100050: neck
+    100052: shin_L
+    100054: shin_R
+    100056: spine
+    100058: thigh_L
+    100060: thigh_R
+    100062: toe_L
+    100064: toe_R
+    400000: //RootNode
+    400002: alien_bassin
+    400004: alien_buste
+    400006: alien_colonne
+    400008: alien_cuisse_droite
+    400010: alien_cuisse_gauche
+    400012: alien_pied_droit
+    400014: alien_pied_droit_001
+    400016: alien_pied_droit_002
+    400018: alien_pied_gauche
+    400020: alien_pied_gauche_001
+    400022: alien_pied_gauche_002
+    400024: alien_tete
+    400026: alien_tibia_droit
+    400028: alien_tibia_gauche
+    400030: chest
+    400032: foot_L
+    400034: foot_R
+    400036: head
+    400038: heel_02_L
+    400040: heel_02_R
+    400042: heel_L
+    400044: heel_R
+    400046: hips
+    400048: metarig
+    400050: neck
+    400052: shin_L
+    400054: shin_R
+    400056: spine
+    400058: thigh_L
+    400060: thigh_R
+    400062: toe_L
+    400064: toe_R
+    4300000: alien_pied_gauche
+    4300002: alien_pied_gauche_001
+    4300004: alien_pied_gauche_002
+    4300006: alien_pied_droit_002
+    4300008: alien_pied_droit
+    4300010: alien_pied_droit_001
+    4300012: alien_tibia_droit
+    4300014: alien_tibia_gauche
+    4300016: alien_cuisse_droite
+    4300018: alien_cuisse_gauche
+    4300020: alien_bassin
+    4300022: alien_buste
+    4300024: alien_tete
+    4300026: alien_colonne
+    7400000: Default Take
+    7400002: metarigAction
+    7400004: metarigAction0
+    7400006: baston
+    7400008: course
+    7400010: mort
+    9500000: //RootNode
+    13700000: alien_bassin
+    13700002: alien_buste
+    13700004: alien_colonne
+    13700006: alien_cuisse_droite
+    13700008: alien_cuisse_gauche
+    13700010: alien_pied_droit
+    13700012: alien_pied_droit_001
+    13700014: alien_pied_droit_002
+    13700016: alien_pied_gauche
+    13700018: alien_pied_gauche_001
+    13700020: alien_pied_gauche_002
+    13700022: alien_tete
+    13700024: alien_tibia_droit
+    13700026: alien_tibia_gauche
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: baston
+      takeName: baston
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: alien_bassin
+        weight: 1
+      - path: alien_buste
+        weight: 1
+      - path: alien_colonne
+        weight: 1
+      - path: alien_cuisse_droite
+        weight: 1
+      - path: alien_cuisse_gauche
+        weight: 1
+      - path: alien_pied_droit
+        weight: 1
+      - path: alien_pied_droit_001
+        weight: 1
+      - path: alien_pied_droit_002
+        weight: 1
+      - path: alien_pied_gauche
+        weight: 1
+      - path: alien_pied_gauche_001
+        weight: 1
+      - path: alien_pied_gauche_002
+        weight: 1
+      - path: alien_tete
+        weight: 1
+      - path: alien_tibia_droit
+        weight: 1
+      - path: alien_tibia_gauche
+        weight: 1
+      - path: metarig
+        weight: 1
+      - path: metarig/hips
+        weight: 1
+      - path: metarig/hips/spine
+        weight: 1
+      - path: metarig/hips/spine/chest
+        weight: 1
+      - path: metarig/hips/spine/chest/neck
+        weight: 1
+      - path: metarig/hips/spine/chest/neck/head
+        weight: 1
+      - path: metarig/hips/thigh_L
+        weight: 1
+      - path: metarig/hips/thigh_L/shin_L
+        weight: 1
+      - path: metarig/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: metarig/hips/thigh_L/shin_L/foot_L/toe_L
+        weight: 1
+      - path: metarig/hips/thigh_L/shin_L/heel_L
+        weight: 1
+      - path: metarig/hips/thigh_L/shin_L/heel_L/heel_02_L
+        weight: 1
+      - path: metarig/hips/thigh_R
+        weight: 1
+      - path: metarig/hips/thigh_R/shin_R
+        weight: 1
+      - path: metarig/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: metarig/hips/thigh_R/shin_R/foot_R/toe_R
+        weight: 1
+      - path: metarig/hips/thigh_R/shin_R/heel_R
+        weight: 1
+      - path: metarig/hips/thigh_R/shin_R/heel_R/heel_02_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: course
+      takeName: course
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: alien_bassin
+        weight: 1
+      - path: alien_buste
+        weight: 1
+      - path: alien_colonne
+        weight: 1
+      - path: alien_cuisse_droite
+        weight: 1
+      - path: alien_cuisse_gauche
+        weight: 1
+      - path: alien_pied_droit
+        weight: 1
+      - path: alien_pied_droit_001
+        weight: 1
+      - path: alien_pied_droit_002
+        weight: 1
+      - path: alien_pied_gauche
+        weight: 1
+      - path: alien_pied_gauche_001
+        weight: 1
+      - path: alien_pied_gauche_002
+        weight: 1
+      - path: alien_tete
+        weight: 1
+      - path: alien_tibia_droit
+        weight: 1
+      - path: alien_tibia_gauche
+        weight: 1
+      - path: metarig
+        weight: 1
+      - path: metarig/hips
+        weight: 1
+      - path: metarig/hips/spine
+        weight: 1
+      - path: metarig/hips/spine/chest
+        weight: 1
+      - path: metarig/hips/spine/chest/neck
+        weight: 1
+      - path: metarig/hips/spine/chest/neck/head
+        weight: 1
+      - path: metarig/hips/thigh_L
+        weight: 1
+      - path: metarig/hips/thigh_L/shin_L
+        weight: 1
+      - path: metarig/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: metarig/hips/thigh_L/shin_L/foot_L/toe_L
+        weight: 1
+      - path: metarig/hips/thigh_L/shin_L/heel_L
+        weight: 1
+      - path: metarig/hips/thigh_L/shin_L/heel_L/heel_02_L
+        weight: 1
+      - path: metarig/hips/thigh_R
+        weight: 1
+      - path: metarig/hips/thigh_R/shin_R
+        weight: 1
+      - path: metarig/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: metarig/hips/thigh_R/shin_R/foot_R/toe_R
+        weight: 1
+      - path: metarig/hips/thigh_R/shin_R/heel_R
+        weight: 1
+      - path: metarig/hips/thigh_R/shin_R/heel_R/heel_02_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: mort
+      takeName: mort
+      firstFrame: 0
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: alien_bassin
+        weight: 1
+      - path: alien_buste
+        weight: 1
+      - path: alien_colonne
+        weight: 1
+      - path: alien_cuisse_droite
+        weight: 1
+      - path: alien_cuisse_gauche
+        weight: 1
+      - path: alien_pied_droit
+        weight: 1
+      - path: alien_pied_droit_001
+        weight: 1
+      - path: alien_pied_droit_002
+        weight: 1
+      - path: alien_pied_gauche
+        weight: 1
+      - path: alien_pied_gauche_001
+        weight: 1
+      - path: alien_pied_gauche_002
+        weight: 1
+      - path: alien_tete
+        weight: 1
+      - path: alien_tibia_droit
+        weight: 1
+      - path: alien_tibia_gauche
+        weight: 1
+      - path: metarig
+        weight: 1
+      - path: metarig/hips
+        weight: 1
+      - path: metarig/hips/spine
+        weight: 1
+      - path: metarig/hips/spine/chest
+        weight: 1
+      - path: metarig/hips/spine/chest/neck
+        weight: 1
+      - path: metarig/hips/spine/chest/neck/head
+        weight: 1
+      - path: metarig/hips/thigh_L
+        weight: 1
+      - path: metarig/hips/thigh_L/shin_L
+        weight: 1
+      - path: metarig/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: metarig/hips/thigh_L/shin_L/foot_L/toe_L
+        weight: 1
+      - path: metarig/hips/thigh_L/shin_L/heel_L
+        weight: 1
+      - path: metarig/hips/thigh_L/shin_L/heel_L/heel_02_L
+        weight: 1
+      - path: metarig/hips/thigh_R
+        weight: 1
+      - path: metarig/hips/thigh_R/shin_R
+        weight: 1
+      - path: metarig/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: metarig/hips/thigh_R/shin_R/foot_R/toe_R
+        weight: 1
+      - path: metarig/hips/thigh_R/shin_R/heel_R
+        weight: 1
+      - path: metarig/hips/thigh_R/shin_R/heel_R/heel_02_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -23,6 +23,11 @@ public class RandomLight : MonoBehaviour {
         }
     }
 
+    void OnDisable()
+    {
+        StopAllCoroutines();
+    }
+
 	// Update is called once per frame
 	void Update () {
 	

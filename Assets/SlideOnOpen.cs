@@ -8,6 +8,6 @@ public class SlideOnOpen : MonoBehaviour {
 
     void open()
     {
-        iTween.MoveAdd((moveParent ? this.transform.parent.gameObject : this.gameObject), Vector3.Dot(direction.normalized, this.transform.lossyScale) * direction, time);
+        iTween.MoveAdd((moveParent ? this.transform.parent.gameObject : this.gameObject), Vector3.Dot(direction.normalized, this.GetComponentInChildren<Renderer>().bounds.size) * direction, time);
     }
 }

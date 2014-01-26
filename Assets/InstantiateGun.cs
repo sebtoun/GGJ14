@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class InstantiateGun : MonoBehaviour {
     public GameObject gunPrefab;
@@ -8,7 +9,7 @@ public class InstantiateGun : MonoBehaviour {
 
     void pickUp(GameObject obj)
     {
-        if (obj.name == "gun")
+        if (obj == null || obj.name == "gun")
         {
             gunPrefab.SetActive(true);
             Destroy(obj);
@@ -16,7 +17,8 @@ public class InstantiateGun : MonoBehaviour {
                 "time", time,
                 "position", gunPosition,
                 "islocal", true,
-                "easetype", iTween.EaseType.easeOutQuad
+                "easetype", iTween.EaseType.easeOutQuad,
+                "oncomplete", (Action<object>) (o => { gunPrefab.GetComponent<Recoil>().enabled = true; })
                 ));
         }
     }

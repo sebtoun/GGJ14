@@ -56,6 +56,12 @@ ModelImporter:
     100100: light_couloir_000_023
     100102: light_couloir_000_024
     100104: light_couloir_000_025
+    100106: alarme
+    100108: alarme_001
+    100110: alarme_002
+    100112: alarme_support
+    100114: alarme_support_001
+    100116: alarme_support_002
     400000: //RootNode
     400002: alien
     400004: man
@@ -109,6 +115,12 @@ ModelImporter:
     400100: light_couloir_000_023
     400102: light_couloir_000_024
     400104: light_couloir_000_025
+    400106: alarme
+    400108: alarme_001
+    400110: alarme_002
+    400112: alarme_support
+    400114: alarme_support_001
+    400116: alarme_support_002
     2300000: //RootNode
     2300002: alien
     2300004: man
@@ -131,6 +143,12 @@ ModelImporter:
     2300038: salleop
     2300040: table
     2300042: couloir
+    2300044: alarme
+    2300046: alarme_001
+    2300048: alarme_002
+    2300050: alarme_support
+    2300052: alarme_support_001
+    2300054: alarme_support_002
     3300000: //RootNode
     3300002: alien
     3300004: man
@@ -153,6 +171,12 @@ ModelImporter:
     3300038: salleop
     3300040: table
     3300042: couloir
+    3300044: alarme
+    3300046: alarme_001
+    3300048: alarme_002
+    3300050: alarme_support
+    3300052: alarme_support_001
+    3300054: alarme_support_002
     4300000: murs_int
     4300002: alien
     4300004: man
@@ -174,6 +198,12 @@ ModelImporter:
     4300036: table
     4300038: murs
     4300040: couloir
+    4300042: alarme_support_002
+    4300044: alarme_002
+    4300046: alarme_001
+    4300048: alarme_support_001
+    4300050: alarme_support
+    4300052: alarme
     6400000: //RootNode
     6400002: alien
     6400004: man
@@ -196,6 +226,12 @@ ModelImporter:
     6400038: salleop
     6400040: table
     6400042: couloir
+    6400044: alarme
+    6400046: alarme_001
+    6400048: alarme_002
+    6400050: alarme_support
+    6400052: alarme_support_001
+    6400054: alarme_support_002
     7400000: Default Take
     9500000: //RootNode
   materials:

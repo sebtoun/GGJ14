@@ -12,8 +12,11 @@ public class CanOpenDoors : MonoBehaviour {
 	void Update () 
     {
         if (doors.Count > 0 && Input.GetButtonDown("Fire2"))
+        {
             foreach (var door in doors)
                 door.SendMessageUpwards("open");
+            SendMessage("hideHint", "interaction", SendMessageOptions.DontRequireReceiver);
+        }
 	}
 
 

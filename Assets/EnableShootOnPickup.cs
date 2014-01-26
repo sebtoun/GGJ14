@@ -4,8 +4,7 @@ using System.Collections;
 public class EnableShootOnPickup : MonoBehaviour {
     void pickUp(GameObject obj)
     {
-        Debug.Log(obj);
-        if (obj.name == "gun")
+        if (obj == null || obj.name == "gun")
         {
             GetComponent<Shoot>().enabled = true;
         }

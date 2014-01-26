@@ -4,7 +4,6 @@ using System.Collections;
 public class FadeOutAfterDelay : MonoBehaviour {
     public float delay;
     public float time;
-	// Use this for initialization
 
 	void die() 
     {
@@ -17,6 +16,6 @@ public class FadeOutAfterDelay : MonoBehaviour {
         iTween.CameraFadeAdd();
         iTween.CameraFadeTo(1, time);
         yield return new WaitForSeconds(time);
-        // TOTO CALLBACK
+        SendMessageUpwards("blackOut");
     }
 }
