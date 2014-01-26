@@ -11,10 +11,11 @@ public class HintDisplay : MonoBehaviour
     string tweenName;
 
     public float fadeTime = 1;
+    public Font font;
 
     Dictionary<string, string> hints = new Dictionary<string, string>
     {
-        { "interaction", "Press Space to interact with environment" }, 
+        { "interaction", "Press Space to use" }, 
     };
 
     void Start()
@@ -32,7 +33,7 @@ public class HintDisplay : MonoBehaviour
             iTween.ValueTo(this.gameObject, iTween.Hash(
                 "time", fadeTime,
                 "from", guiAlpha,
-                "to", 1,
+                "to", 0.5f,
                 "onupdate", (Action<object>)(v => guiAlpha = (float)v)
                 ));
         }
@@ -56,6 +57,7 @@ public class HintDisplay : MonoBehaviour
     {
         if (guiContent != null)
         {
+            //GUI.skin.font = font;
             GUI.skin.label.fontSize = 30;
             var size = GUI.skin.label.CalcSize(guiContent);
             var c = GUI.color;

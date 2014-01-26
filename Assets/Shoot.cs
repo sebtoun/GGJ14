@@ -13,6 +13,7 @@ public class Shoot : MonoBehaviour {
 	void Update () {
         if (Input.GetButtonDown("Fire1"))
         {
+            BroadcastMessage("fire");
             RaycastHit hit;
             if (Physics.Raycast(Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0)), out hit, 100f, shootable))
             {

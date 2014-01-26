@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1b9bdf7a19d30446914b82b098603e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  count: 15
+  count: 10
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17143228b07d8da43880b63776d519d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: .5
+  time: .300000012
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59d72d98367840c40b8e11043a7288b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: .5
+  delay: .300000012
 --- !u!198 &19800000
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -162,7 +162,7 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: .200000003
+          value: .100000001
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -284,10 +284,10 @@ ParticleSystem:
         rgba: 4294967295
       maxColor:
         serializedVersion: 2
-        rgba: 4290640639
+        rgba: 4292476159
       minMaxState: 0
     startSize:
-      scalar: .100000001
+      scalar: .0199999996
       maxCurve:
         serializedVersion: 2
         m_Curve:

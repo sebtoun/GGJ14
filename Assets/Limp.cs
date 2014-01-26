@@ -20,7 +20,10 @@ public class Limp : MonoBehaviour {
         if (movementAmount >= movementThreshold)
         {
             if (!animation.isPlaying)
+            {
                 animation.Play();
+                BroadcastMessage("limb", SendMessageOptions.DontRequireReceiver);
+            }
             movementAmount -= movementThreshold;
         }
     }
