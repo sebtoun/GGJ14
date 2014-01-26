@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: d2bb50b5bf8c2034d8e6e3f35da3643f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: alien_bassin
+    100002: //RootNode
+    100004: alien_buste
+    100006: alien_colonne
+    100008: alien_cuisse_droite
+    100010: alien_cuisse_gauche
+    100012: alien_pied_droit
+    100014: alien_pied_droit_001
+    100016: alien_pied_droit_002
+    100018: alien_pied_gauche
+    100020: alien_pied_gauche_001
+    100022: alien_pied_gauche_002
+    100024: alien_tete
+    100026: alien_tibia_droit
+    100028: alien_tibia_gauche
+    400000: alien_bassin
+    400002: //RootNode
+    400004: alien_buste
+    400006: alien_colonne
+    400008: alien_cuisse_droite
+    400010: alien_cuisse_gauche
+    400012: alien_pied_droit
+    400014: alien_pied_droit_001
+    400016: alien_pied_droit_002
+    400018: alien_pied_gauche
+    400020: alien_pied_gauche_001
+    400022: alien_pied_gauche_002
+    400024: alien_tete
+    400026: alien_tibia_droit
+    400028: alien_tibia_gauche
+    2300000: alien_bassin
+    2300002: alien_buste
+    2300004: alien_colonne
+    2300006: alien_cuisse_droite
+    2300008: alien_cuisse_gauche
+    2300010: alien_pied_droit
+    2300012: alien_pied_droit_001
+    2300014: alien_pied_droit_002
+    2300016: alien_pied_gauche
+    2300018: alien_pied_gauche_001
+    2300020: alien_pied_gauche_002
+    2300022: alien_tete
+    2300024: alien_tibia_droit
+    2300026: alien_tibia_gauche
+    3300000: alien_bassin
+    3300002: alien_buste
+    3300004: alien_colonne
+    3300006: alien_cuisse_droite
+    3300008: alien_cuisse_gauche
+    3300010: alien_pied_droit
+    3300012: alien_pied_droit_001
+    3300014: alien_pied_droit_002
+    3300016: alien_pied_gauche
+    3300018: alien_pied_gauche_001
+    3300020: alien_pied_gauche_002
+    3300022: alien_tete
+    3300024: alien_tibia_droit
+    3300026: alien_tibia_gauche
+    4300000: alien_pied_droit_001
+    4300002: alien_pied_droit_002
+    4300004: alien_pied_droit
+    4300006: alien_pied_gauche_001
+    4300008: alien_pied_gauche_002
+    4300010: alien_pied_gauche
+    4300012: alien_tibia_gauche
+    4300014: alien_tibia_droit
+    4300016: alien_cuisse_droite
+    4300018: alien_cuisse_gauche
+    4300020: alien_tete
+    4300022: alien_buste
+    4300024: alien_colonne
+    4300026: alien_bassin
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
