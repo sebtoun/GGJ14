@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 747db813af31aed4ca8f45ed6e226282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  height: 3
+  height: 4
   time: 10
 --- !u!114 &11400002
 MonoBehaviour:
@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 183da002eb06b734587fa0679a1c9b41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  corpse: {fileID: 100002, guid: ca2434d40d5b8164da37ff288816e4f9, type: 2}
+  corpse: {fileID: 100028, guid: 2c386774317b1a74b834a4a621518cdb, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

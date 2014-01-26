@@ -8,8 +8,9 @@ using System.Collections.Generic;
 public class PopulateLights : MonoBehaviour 
 {
     public const string LIGHT_PREFIX = "light_";
-    static Dictionary<string, GameObject> lights;
+    public const string ALARM_PREFIX = "alarme_";
 
+    static Dictionary<string, GameObject> lights;
     static void init()
     {
         lights = Resources.LoadAll<GameObject>("lights").ToDictionary(go => go.name, go => go);
@@ -33,6 +34,15 @@ public class PopulateLights : MonoBehaviour
     }
 
 
+    [MenuItem("Populate Scene/Alarms")]
+    static void populateAlarms()
+    {
+        if (lights == null)
+            init();
+
+        visitBFS(Selection.activeTransform, instanciateAlarm, tr => tr.name.StartsWith(ALARM_PREFIX));
+    }
+
     [MenuItem("Populate Scene/Lights")]
     static void populateLights()
     {
@@ -41,6 +51,7 @@ public class PopulateLights : MonoBehaviour
 
         visitBFS(Selection.activeTransform, instanciateLight, tr => tr.name.StartsWith(LIGHT_PREFIX));
     }
+
 
     static bool instanciateLight(Transform hook)
     {
@@ -65,9 +76,23 @@ public class PopulateLights : MonoBehaviour
         }
     }
 
+    static bool instanciateAlarm(Transform hook)
+    {
+        if (hook.GetComponent<Rotate>() == null)
+            hook.gameObject.AddComponent<Rotate>();
+        return false;
+    }
+
     [MenuItem("Populate Scene/Lights", true)]
     static bool validatepopulateLights()
     {
         return Selection.activeTransform != null;
     }
+
+    [MenuItem("Populate Scene/Alarms", true)]
+    static bool validatepopulateAlarms()
+    {
+        return Selection.activeTransform != null;
+    }
+
 }
