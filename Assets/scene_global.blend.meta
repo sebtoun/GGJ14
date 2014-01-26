@@ -44,6 +44,18 @@ ModelImporter:
     100076: light_couloir_000_011
     100078: light_couloir_000_012
     100080: light_couloir_000_013
+    100082: light_couloir_000_014
+    100084: light_couloir_000_015
+    100086: light_couloir_000_016
+    100088: light_couloir_000_017
+    100090: light_couloir_000_018
+    100092: light_couloir_000_019
+    100094: light_couloir_000_020
+    100096: light_couloir_000_021
+    100098: light_couloir_000_022
+    100100: light_couloir_000_023
+    100102: light_couloir_000_024
+    100104: light_couloir_000_025
     400000: //RootNode
     400002: alien
     400004: man
@@ -85,6 +97,18 @@ ModelImporter:
     400076: light_couloir_000_011
     400078: light_couloir_000_012
     400080: light_couloir_000_013
+    400082: light_couloir_000_014
+    400084: light_couloir_000_015
+    400086: light_couloir_000_016
+    400088: light_couloir_000_017
+    400090: light_couloir_000_018
+    400092: light_couloir_000_019
+    400094: light_couloir_000_020
+    400096: light_couloir_000_021
+    400098: light_couloir_000_022
+    400100: light_couloir_000_023
+    400102: light_couloir_000_024
+    400104: light_couloir_000_025
     2300000: //RootNode
     2300002: alien
     2300004: man
